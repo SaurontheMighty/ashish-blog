@@ -8,6 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: "/ashish-blog",
   siteMetadata: {
     title: `Ashish's Blog`,
     author: {
@@ -118,7 +119,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         theme_color: `#eb6134`,
         display: `minimal-ui`,
-        icon: `src/images/profile-pic.png`, // This path is relative to the root of the site.
+        icon: `src/images/profile-pic.jpeg`, // This path is relative to the root of the site.
       },
     },
   ],

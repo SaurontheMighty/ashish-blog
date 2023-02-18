@@ -1,12 +1,12 @@
 ---
 title: New Beginnings
 date: "2023-02-17"
-description: Re-building my personal website with React and Gatsby.js. 
+description: Static Site Generation and re-building my personal website with React + Gatsby.js. 
 ---
 
 In my previous website my blog posts were simply JSON objects and a simple forEach would loop through and display them somewhat nicely. Stop judging me, we all have to start somewhere!
 
-But formatting posts was impossible and I'd been waiting for some free time so that I could pursue a less hacky solution. Although I've been programming since I was 12, I was only aware of static site generation peripherally.
+But formatting posts was impossible and I'd been waiting for some free time so that I could pursue a less hacky solution. Despite programming for a somewhat long time (since I was 12!), I was aware of static site generation only peripherally.
 
 I discovered Jekyll last year through [Emil Baehr's Automatic App Landing Page](https://github.com/emilbaehr/automatic-app-landing-page). I found that template the day of Not Evil Sudoku's launch and had only a few hours before I was due to board an international flight. ^[Why did I plan to launch the same day as travelling internationally? Shhh, I'm a busy guy.] Needless to say, I butchered it as I raced to get something decent running and definitely didn't appreciate how cool Jekyll (and static site generation as a a whole) was.
 
