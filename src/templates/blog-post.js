@@ -21,6 +21,7 @@ const BlogPostTemplate = ({
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
           <p>{post.frontmatter.date}</p>
+          <Bio />
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -28,7 +29,6 @@ const BlogPostTemplate = ({
         />
         <hr />
         <footer>
-          <Bio />
         </footer>
       </article>
       <nav className="blog-post-nav">

@@ -286,17 +286,18 @@ a:focus {
 
 .bio {
   display: flex;
-  margin-bottom: var(--spacing-16);
+  /* margin-bottom: var(--spacing-16); */
 }
 
 .bio p {
-  margin-bottom: var(--spacing-0);
+  /* margin-bottom: var(--spacing-0); */
 }
 
 .bio-avatar {
   margin-right: var(--spacing-4);
   margin-bottom: var(--spacing-0);
-  min-width: 50px;
+  min-width: 20px;
+  min-height: 20px;
   border-radius: 100%;
 }
 
