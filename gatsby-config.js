@@ -8,7 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  pathPrefix: "/ashish-blog",
+  pathPrefix: "/blog",
   siteMetadata: {
     title: `Ashish's Blog`,
     author: {
