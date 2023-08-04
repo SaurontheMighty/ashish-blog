@@ -1,7 +1,7 @@
 ---
 title: Not Evil Sudoku
 date: "2023-02-18"
-description: Reflecting on my sudoku app that unexpectedly gained over 60,000 installs on the App Store. 
+description: How 8MB of sudoku changed the course of my life.
 ---
 
 Not Evil Sudoku is a clean, minimalist sudoku app on the [App Store](https://appstoreconnect.apple.com/apps/1614071642/appstore).

@@ -7,7 +7,7 @@
   --maxWidth-md: 28rem;
   --maxWidth-lg: 32rem;
   --maxWidth-xl: 36rem;
-  --maxWidth-2xl: 42rem;
+  --maxWidth-2xl: 84rem;
   --maxWidth-3xl: 48rem;
   --maxWidth-4xl: 56rem;
   --maxWidth-full: "100%";
@@ -51,7 +51,7 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: #eb6134;
+  --color-primary: #6b2132;
   --color-text: #2e353f;
   --color-text-light: #4f5969;
   --color-heading: #1a202c;
@@ -328,4 +328,33 @@ a:focus {
   ol {
     list-style-position: inside;
   }
+}
+
+#paper {
+  position: absolute;
+  display: flex;
+  filter: url(#roughpaper);
+}
+.navbar {
+  /* background-color: #333; */
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.navbar img {
+  height: 90px;
+  /* margin-top: 50px; Add margin to the top of the image */
+}
+.navbar a {
+  /* color: #fff; */
+  text-decoration: none;
+  padding: 10px;
+}
+.navbar a:hover {
+  /* background-color: #555; */
 }
